@@ -1,0 +1,70 @@
+*{/*chamar elemento do navegador*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background:linear-gradient(135deg,#6A82fb,#FC5C7D); 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+section{
+    background: #fff;
+    padding:  40px 40px;/* paddding significa alinhamento do espaciament interno (nesse case tem espaço em cima e embaixo) */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;/* text-align significa alinhamento do texto (nesse case o texto vai ficar centralizado) */
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #2c3e50;
+
+}
+h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #FC5C7D;
+    font-weight: normal;
+}
+p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 25px;
+    text-align: left;
+}
+ul li{
+    color: #444;
+    padding: 6px 0;
+}
+ul li::before{
+    content: "✔";
+    color: #27ae60;
+    font-weight: bold;
+}
+a{
+    display: inline-block;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #6A82fb, #FC5C7D);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    font-size: 14«6px;
+}
